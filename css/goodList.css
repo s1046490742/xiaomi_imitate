@@ -1,0 +1,86 @@
+a {
+  display: block;
+}
+.goodListBox {
+  height: 450px;
+  width: 1226px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.goodListBox h3 {
+	color: #333;
+  position: absolute;
+  top: 35px;
+  font-size: 23px;
+  font-weight: 100;
+}
+.goodListBox .btn {
+  position: absolute;
+  top: 35px;
+  width: 35px;
+  height: 25px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #b0b0b0;
+  cursor: pointer;
+}
+.goodListBox .btn_left {
+  right: 36px;
+  color: #e0e0e0;
+}
+.goodListBox .btn_right {
+  right: 0px;
+}
+.goodListBox .goodList {
+  height: 340px;
+  width: 3000px;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  transition: all 0.5s linear 0s;
+}
+.goodListBox .goodList ul > li {
+  float: left;
+  overflow: hidden;
+}
+.goodListBox .goodList ul > li div {
+  border-top: 1px solid #83c44e;
+	padding-top: 20px;
+  background-color: #fafafa;
+  margin: 5.5px;
+  width: 236px;
+  height: 340px;
+  text-align: center;
+}
+.goodListBox .goodList ul > li div .goodImg img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.goodListBox .goodList ul > li div p {
+  font-size: 12px;
+  color: #b0b0b0;
+  line-height: 30px;
+}
+.goodListBox .goodList ul > li div i {
+  font-style: inherit;
+  color: #ff6709;
+}
+.goodListBox .goodList .goodListCell{
+	border: none;
+	background-color: #fff;
+
+}
+.goodListBox .goodList .goodListCell:hover .goodImg{
+	margin-top: -2px;
+	transition: all .2s ease-in;
+
+}
+.goodListBox .goodList .goodListCell a{
+	color: #333333;
+}
+/*# sourceMappingURL=goodList.css.map */
